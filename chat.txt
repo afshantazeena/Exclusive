@@ -1,1 +1,9 @@
 Suppose i have made changes to this file//
+
+
+so after making any changes when you want to share code with me  then you will have to do three things//
+1- git add . 
+
+
+let me calll you in 5 min, i will be back from rest room
+ok

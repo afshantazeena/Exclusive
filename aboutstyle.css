@@ -13,14 +13,14 @@
     margin-top: 50px;
 }
  .card-title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .card-title h4{
-font-size:50px:
+font-size:50px;
 text-align:center;
 }
 .card{
-	margin-top:50px;
+	margin-top:10px;
 	
 }
 p.card-text{
@@ -33,10 +33,11 @@ p {
     margin-top: 10px;
     margin-bottom:30px;
 	font-size:18px;
+	color:black;
 }
 .announce-box{
 
-margin-top: 500px;
+margin-top: 250px;
     margin-right: 30px;
     text-align: center;
     margin-left: 70px;
@@ -74,3 +75,5 @@ body{
 	margin-top:40px;
 margin-left:150px;
 }
+.well:hover{
+				box-shadow:-2px 2px 18px #888888;

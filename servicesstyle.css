@@ -1,5 +1,5 @@
 body{
-background-color:black;
+background-color:white;
 }
 .double-title {
     font-weight: 800;
@@ -43,6 +43,7 @@ width:80%
     background: #fafafa;
     padding: 30px 20px 1px 60px;
     border: 1px solid #ebebeb;
+	box-shadow:-5px 5px 18px #888888;
 }
 .action-title {
     margin: 0;
@@ -54,10 +55,16 @@ width:80%
     text-transform: capitalize;
 }
 .container-fluid{
-	background-color:#1F1F1F;
+	background-color:white;
 	height:100px;
-	margin-top:50px;
+	margin-top:0px;
 	text-align:center;
-	padding-top:30px;
+	padding-top:0px;
 	
 }
+li{
+	color:white;
+	text-decoration:none;	
+}
+.down:hover{
+	box-shadow:-5px 5px 18px #888888;
