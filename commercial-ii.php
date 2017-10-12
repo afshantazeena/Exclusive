@@ -16,7 +16,11 @@
 		
 		<script type="text/javascript" src="includes/jquery-3.2.1.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	</head>
+				<style>
+			<?php include ("menu.css");?>
+			
+		</style>
+		</head>
 	<body>
 	<?php include ("includes/menu.html");?>
 	

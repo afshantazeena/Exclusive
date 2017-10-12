@@ -1,0 +1,10 @@
+.navbar-brand{
+padding-left:20px !important;
+}
+    .navbar-expand-lg .navbar-collapse {
+      padding-left: 20px;
+    }
+.active .nav-link {
+    background-color: #e9e9e9;
+    color: black;
+}

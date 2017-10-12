@@ -15,17 +15,14 @@
 		
 		<script type="text/javascript" src="includes/jquery-3.2.1.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+		<style>
+			<?php include ("menu.css");?>
+		</style>
+		
 	</head>
 	<body>
 		<?php include ("includes/menu.html");?>
-		<div class="container-fluid container-fluid1">
-			<div class="row"> 
-				<div class="col-sm-12"> 
-					<h2>EXCLUSIVE WALLCOVERING</h2>
-					
-				</div>
-			</div>
-		</div>
+
 		
 		<div class="container-fluid container-fluid2">
 			<div class="row">
