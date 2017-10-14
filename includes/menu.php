@@ -19,8 +19,8 @@
 						<li id="services" class="nav-item <?php if ((isset($_SESSION['page']))&&($_SESSION['page']=='services')){echo "active";} ?>">
 							<a class="nav-link " href="services.php">SERVICES</a>
 						</li>
-						<li id="photography" class="nav-item <?php if ((isset($_SESSION['page']))&&($_SESSION['page']=='photography')){echo "active";} ?>">
-							<a class="nav-link" href="photography.php">PHOTOGRAPHY</a>
+						<li id="photography" class="nav-item <?php if ((isset($_SESSION['page']))&&($_SESSION['page']=='pic')){echo "active";} ?>">
+							<a class="nav-link" href="pic.php">PHOTOGRAPHY</a>
 						</li>
 						<li id="latest-news" class="nav-item <?php if ((isset($_SESSION['page']))&&($_SESSION['page']=='latestNews')){echo "active";} ?>">
 							<a class="nav-link " href="latest-news.php">LATEST NEWS</a>
