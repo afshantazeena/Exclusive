@@ -1,4 +1,6 @@
 <?php 
+	session_start();
+	$_SESSION['page']="about";
 	
 ?>
 
@@ -18,14 +20,13 @@
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="aboutstyle2.css" media="all" />
 		<style><?php include ("menu.css");?></style>
-		
 		<script type="text/javascript" ><?php include ("includes/menu_background.js");?></script>
 		
 		
 		
 	</head>
 	<body>
-	<?php include ("includes/menu.html");?>
+	<?php include ("includes/menu.php");?>
 		
 		<div class="container">
 			<div class="row">

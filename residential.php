@@ -17,10 +17,11 @@
 		
 		<script type="text/javascript" src="includes/jquery-3.2.1.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+		<script type="text/javascript" ><?php include ("includes/menu_background.js");?></script>
 		<style><?php include ("menu.css");?></style>
-	</head>
+		</head>
 	<body>
-	<?php include ("includes/menu.html");?>
+	<?php include ("includes/menu.php");?>
 	
 		<div class="container"> 
 			<div class="row"> 

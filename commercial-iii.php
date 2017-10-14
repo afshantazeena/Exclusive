@@ -16,12 +16,13 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		
 		<script type="text/javascript" src="includes/jquery-3.2.1.js"></script>
+		<script type="text/javascript" ><?php include ("includes/menu_background.js");?></script>
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 		<style><?php include ("menu.css");?></style>
 		
 	</head>
 	<body>
-	<?php include ("includes/menu.html");?>
+	<?php include ("includes/menu.php");?>
 		
 		<div class="container"> 
 			<div class="row"> 

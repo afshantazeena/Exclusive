@@ -1,5 +1,6 @@
 <?php 
-	
+	session_start();
+	$_SESSION['page']="photography";
 ?>
 
 
@@ -18,13 +19,11 @@
 		<script type="text/javascript" src="includes/jquery-3.2.1.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="photographystyle.css" media="all" />
-				<style>
-			<?php include ("menu.css");?>
-			
-		</style>
+		<script type="text/javascript" ><?php include ("includes/menu_background.js");?></script>
+		<style><?php include ("menu.css");?></style>
 	</head>
 	<body>
-	<?php include ("includes/menu.html");?>
+	<?php include ("includes/menu.php");?>
 		
 		<div class="container"> 
 			<div class="row"> 

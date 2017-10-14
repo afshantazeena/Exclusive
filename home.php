@@ -1,5 +1,6 @@
 <?php 
-	
+	session_start();
+	$_SESSION['page']="home";
 ?>
 
 
@@ -15,16 +16,15 @@
 		
 		<script type="text/javascript" src="includes/jquery-3.2.1.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-		<style>
-			<?php include ("menu.css");?>
-		</style>
+		<script type="text/javascript" ><?php include ("includes/menu_background.js");?></script>
+		<style>	<?php include ("menu.css");?></style>
 		
 	</head>
 	<body>
-		<?php include ("includes/menu.html");?>
+		<?php include ("includes/menu.php");?>
 
 		
-		<div class="container-fluid container-fluid2">
+		<div class="container container-fluid2">
 			<div class="row">
 				<div class="col-xs-12">
 					<div id="carouselExampleIndicators" class="carousel slide" data-interval="2000" data-ride="carousel">
